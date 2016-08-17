@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="greeting">What do you need to do today?</string>
+    <string name="to_do_item_task">Task</string>
+    <string name="to_do_item_hint">What do you need to get done?</string>
+    <string name="set_date">Set due date</string>
+</resources>

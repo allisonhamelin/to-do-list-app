@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/list_item_divider_top"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:src="@drawable/divider"/>-->
+
+    <CheckBox
+        android:id="@+id/list_item_task_completed_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:buttonTint="@color/teal"/>
+
+    <TextView
+        android:id="@+id/list_item_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_toRightOf="@id/list_item_task_completed_check_box"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        tools:text="Get groceries"/>
+
+    <ImageView
+        android:id="@+id/list_item_divider_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/list_item_task_completed_check_box"
+        android:src="@drawable/divider"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+</RelativeLayout>

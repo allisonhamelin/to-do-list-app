@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:text="@string/to_do_item_task"-->
+        <!--style="@style/ToDoItemTextStyle"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <EditText
+        android:id="@+id/to_do_item_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/teal"
+        android:hint="@string/to_do_item_hint"
+        android:textColorHint="@color/grey"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/calendar_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_calendar_grey"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/calendar_icon"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/grey"
+            android:hint="@string/set_date"
+            android:textColorHint="@color/grey"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
