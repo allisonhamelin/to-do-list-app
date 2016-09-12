@@ -1,7 +1,6 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
+
+# Project Name
+A personal project: an Android to-do list app inspired by Any.do
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -10,6 +9,4 @@ TODO: Write a project description
 5. Submit a pull request :D
 ## Credits
 TODO: Write credits
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
+
